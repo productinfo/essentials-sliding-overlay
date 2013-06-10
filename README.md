@@ -1,26 +1,18 @@
-Shinobi Charts/Grids/Essentials Project Title (Objective-C/Xamarin/Android)
+ShinobiEssentials Sliding Overlay Demo (Objective-C)
 =====================
 
-Description of project (include link to blog post if there is one)
+The ShinobiEssentials Sliding Overlay (SEssentialsSlidingOverlay) gives you an easy way to drop a sliding overlay into your project. This is increasingly becoming one of the most popular navigation patterns in iOS development, with apps like Facebook, Path, Gmail and Twitterrific (to name just a few) all following this navigation pattern. 
+
+This project shows you how to implement this pattern in your own iOS application using the SEssentialsSlidingOverlay. There is an accompanying blog post [here](http://www.shinobicontrols.com/blog/posts/2013/02/04/navigating-the-slidingpanel/).
 
 ![Screenshot](screenshot.png?raw=true)
 
 Building the project
 ------------------
 
-In order to build this project you'll need a copy of ShinobiCharts/Grids/Essentials. If you don't have it yet, you can download a free trial from the [ShinobiCharts/Grids/Essentials website](link to appropriate section).
+In order to build this project you'll need a copy of ShinobiEssentials. If you don't have it yet, you can download a free trial from the [ShinobiEssentials website](http://www.shinobicontrols.com/shinobiessentials/).
 
-Once you've downloaded and unzipped ShinobiCharts/Grids/Essentials, open up the project in XCode, and drag ShinobiCharts/Grids/Essentials.embeddedframework from the finder into Xcode's 'frameworks' group, and XCode will sort out all the header and linker paths for you.
-
-**Delete the inappropriate sections (and alter the chart/grid name in the sample code if appropriate):**
-
-If you're using the trial version you'll need to add your license key. To do so, open up ViewController.m and add the following line after the chart is initialised:
-
-    chart.licenseKey=@"your license key";
-
-If you're using the trial version you'll need to add your license key. To do so, open up ViewController.m and add the following line after the grid is initialised:
-
-    grid.licenseKey=@"your license key";
+Once you've downloaded and unzipped ShinobiEssentials, open up the project in XCode, and drag ShinobiEssentials.embeddedframework from the finder into Xcode's 'frameworks' group, and XCode will sort out all the header and linker paths for you.
 
 If you’re using the trial version you’ll need to add your license key. To do so, open up AppDelegate.m, import <ShinobiEssentials/SEssentials.h>, and set the license key inside application:didFinishLaunchingWithOptions: as follows:
 
