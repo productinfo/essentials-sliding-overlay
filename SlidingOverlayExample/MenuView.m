@@ -36,28 +36,28 @@
 -(id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        UIButton *feedButton = [[UIButton alloc] initWithFrame:CGRectMake(PADDING, PADDING,
+        UIButton *feedButton = [[UIButton alloc] initWithFrame:CGRectMake(PADDING, PADDING+20,
                                                                           frame.size.width - PADDING * 2, BUTTON_HEIGHT)];
         [feedButton setTitle:@"Feed" forState:UIControlStateNormal];
         [feedButton setBackgroundColor:[UIColor grayColor]];
         [feedButton addTarget:self action:@selector(feedButtonTapped) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:feedButton];
         
-        UIButton *profileButton = [[UIButton alloc] initWithFrame:CGRectMake(PADDING, 60,
+        UIButton *profileButton = [[UIButton alloc] initWithFrame:CGRectMake(PADDING, 80,
                                                                              frame.size.width - PADDING * 2, BUTTON_HEIGHT)];
         [profileButton setTitle:@"Profile" forState:UIControlStateNormal];
         [profileButton setBackgroundColor:[UIColor grayColor]];
         [profileButton addTarget:self action:@selector(profileButtonTapped) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:profileButton];
         
-        UIButton *messagesButton = [[UIButton alloc] initWithFrame:CGRectMake(PADDING, 110,
+        UIButton *messagesButton = [[UIButton alloc] initWithFrame:CGRectMake(PADDING, 130,
                                                                              frame.size.width - PADDING * 2, BUTTON_HEIGHT)];
         [messagesButton setTitle:@"Messages" forState:UIControlStateNormal];
         [messagesButton setBackgroundColor:[UIColor grayColor]];
         [messagesButton addTarget:self action:@selector(messagesButtonTapped) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:messagesButton];
         
-        UIButton *friendsButton = [[UIButton alloc] initWithFrame:CGRectMake(PADDING, 160,
+        UIButton *friendsButton = [[UIButton alloc] initWithFrame:CGRectMake(PADDING, 180,
                                                                              frame.size.width - PADDING * 2, BUTTON_HEIGHT)];
         [friendsButton setTitle:@"Friends" forState:UIControlStateNormal];
         [friendsButton setBackgroundColor:[UIColor grayColor]];

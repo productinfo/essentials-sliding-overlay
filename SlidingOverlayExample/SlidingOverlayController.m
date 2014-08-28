@@ -44,7 +44,7 @@
 
 -(void)viewDidLoad {
     [super viewDidLoad];
-	
+  
     _slidingOverlay = [[SEssentialsSlidingOverlay alloc] initWithFrame:self.view.bounds andToolbar:NO];
     [_slidingOverlay setUnderlaySizeType:SEssentialsUnderlayPixelSize];
     [_slidingOverlay setUnderlayRevealAmount:250];
@@ -79,7 +79,6 @@
             }
         }
         [[_slidingOverlay overlay] addSubview:controller.view];
-        [self correctFrame:controller];
         
         _activeViewController = controller;
     }
@@ -87,14 +86,6 @@
     if(shouldToggleMenu) {
         [self toggleMenu];
     }
-}
-
--(void)correctFrame:(UIViewController*)controller {
-    [[controller view] setFrame:_slidingOverlay.overlay.bounds];
-    CGRect r = controller.view.frame;
-    r.size.height += 20.f;
-    r.origin.y = -20.0f;
-    controller.view.frame = r;
 }
 
 -(void)showFeed {

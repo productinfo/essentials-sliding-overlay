@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2E4D4DFC-BE6D-4426-9C4E-71A5A99740A2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sliding Overlay Example</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>474F6DC5-7206-43B1-B329-B8B2CBFAD509</key>
+		<string>ssh://git.scottlogic.co.uk:2222/shinobi-developer.git</string>
+		<key>8BCF78F8-B7C9-4C18-8B80-30E66DB2FAF0</key>
+		<string>https://github.com/ShinobiControls/essentials-sliding-overlay.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sliding Overlay Example.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>474F6DC5-7206-43B1-B329-B8B2CBFAD509</key>
+		<string>../../../../../Shinobi/Developer</string>
+		<key>8BCF78F8-B7C9-4C18-8B80-30E66DB2FAF0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ShinobiControls/essentials-sliding-overlay.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8BCF78F8-B7C9-4C18-8B80-30E66DB2FAF0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>474F6DC5-7206-43B1-B329-B8B2CBFAD509</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Developer</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8BCF78F8-B7C9-4C18-8B80-30E66DB2FAF0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>essentials-sliding-overlay</string>
+		</dict>
+	</array>
+</dict>
+</plist>
